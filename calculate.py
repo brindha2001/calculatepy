@@ -16,8 +16,13 @@ def minus(y):
     return lambda x: x-y
 def times(y):
     return lambda x: x*y
-def divided_by(y):
-     return lambda x: x//y
+def divided_by:
+    return lambda x: x//y
+print(seven(times(five())))
+print(four(plus(nine())))
+print(eight(minus(three())))
+print(six(divided_by(two())))
+print(eight(divided_by(three())))
 
 
 
